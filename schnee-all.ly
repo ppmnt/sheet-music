@@ -1,17 +1,17 @@
 \header {
   title = "Schneeflöckchen Weißröckchen"
-  composer = "Altes Kinderlied"
+  composer = "Volkslied"
 }
 
 
 mynotes = { 
   \partial 4 e8( f)
-  <g c,>4 ^C g a | 
-  <d, f> ^G d d8( e) |
-  <f d>4 ^G f g | 
-  <e c>2 ^C e8( f) | 
-  <g c,>4 ^C g c | 
-  <b f> ^F a g8( f) | 
+  <g c,>4 ^C g a 
+  <d, f> ^G d d8( e)
+  <f d>4 ^G f g
+  <e c>2 ^C e8( f)
+  <g c,>4 ^C g c 
+  <b f> ^F a g8( f)
   <e c>4 ^C f d ^G 
   <c e g>2 ^C 
   \bar "|."
@@ -23,8 +23,7 @@ mynotes = {
 		\time 3/4		
 		\clef treble
 		\relative c' { 	
-		 % Type notes here 
-      \mynotes			
+	    \mynotes			
 		}	
   }
 
@@ -59,6 +58,7 @@ mynotes = {
     Dann bau’n wir den Schnee- mann
     und wer- fen den Ball.
   }
+  
   \new TabStaff {
 	%\set TabStaff.stringTunings = #ukulele-tuning
     \set TabStaff.stringTunings = \stringTuning <g' c' e' a'>
@@ -68,6 +68,4 @@ mynotes = {
   }
 
 >>
-  \layout {}
-  \midi {}
 }
